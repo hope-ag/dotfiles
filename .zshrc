@@ -13,8 +13,6 @@ autoload -Uz _zinit
 
 
 ###### ZSH PLUGINS ######
-# load zsh plugins from oh-my-zsh lazily
-zstyle ':omz:plugins:nvm' lazy yes
 
 zinit light "zsh-users/zsh-autosuggestions"
 zinit light "zsh-users/zsh-history-substring-search"
@@ -22,6 +20,8 @@ zinit light "zsh-users/zsh-syntax-highlighting"
 zinit light "ntnyq/omz-plugin-pnpm"
 zinit light "Aloxaf/fzf-tab"
 # OMZ plugins
+# load nvm plugin from oh-my-zsh lazily (nvm typically has a slow startup time)
+zstyle ':omz:plugins:nvm' lazy yes
 zinit snippet OMZP::git
 zinit snippet OMZP::npm
 zinit snippet OMZP::nvm
