@@ -1,0 +1,49 @@
+shell-integration=zsh
+quit-after-last-window-closed=true
+
+macos-titlebar-style="transparent"
+
+theme = Catppuccin Macchiato
+#uncomment the following lines to enable transparent+blurred background
+#background-opacity=0.9
+#background-blur=30
+unfocused-split-opacity=0.6
+scrollback-limit=6000
+
+
+
+#fullscreen=true
+maximize=true
+#macos-non-native-fullscreen=visible-menu
+working-directory=inherit
+window-inherit-working-directory=true
+window-decoration=client
+focus-follows-mouse=true
+
+window-padding-x = 4
+
+
+font-family = "Menlo Regular"
+font-family-bold="Menlo Bold"
+font-family-italic="Menlo Italic"
+font-family-bold-italic="Menlo Bold Italic"
+bold-is-bright=true
+font-size=14
+
+
+cursor-style="bar"
+cursor-style-blink=true
+#alt+click to place cursor
+cursor-click-to-move=true
+
+
+# Keybindings
+keybind = super+arrow_right=new_split:right
+keybind = super+arrow_left=new_split:left
+keybind = super+arrow_up=new_split:up
+keybind = super+arrow_down=new_split:down
+
+
+
+
+
