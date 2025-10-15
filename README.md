@@ -23,6 +23,7 @@ brew install fzf zoxide starship carapace-sh/tap/carapace
 
 ### Optional
 - **tmux** - Terminal multiplexer (for managing multiple terminal sessions)
+- **[tpm](https://github.com/tmux-plugins/tpm)** - Tmux Plugin Manager (recommended for tmux users)
 - **[ghostty](https://github.com/ghostty-org/ghostty)** - GPU-accelerated terminal emulator
 
 ## Installation
@@ -154,6 +155,7 @@ npm run <Tab>       # Shows package.json scripts
 - Session restoration with tmux-resurrect
 - Enhanced copy/paste with tmux-yank
 - fzf integration for session/window/pane management
+- Plugin management via [tpm](https://github.com/tmux-plugins/tpm)
 
 ### 👻 Ghostty Terminal (Optional)
 *[GIF placeholder: Ghostty terminal with GPU acceleration and smooth scrolling]*
