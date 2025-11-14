@@ -142,9 +142,9 @@ alias push-branch='git push origin $(git rev-parse --abbrev-ref HEAD)'
 alias apply-latest='git stash apply stash@{0}'
 alias stash-all='git stash -u'
 # git worktrees: useful for multi-branch development
-alias spawn='(){ echo Adding worktree $1. ; git worktree add ../"$1" ;}'
-alias list-spawns='git worktree list'
-alias despawn='(){ echo Removing worktree at $1. ; git worktree remove -f "$1" ;}'
+# alias spawn='(){ echo Adding worktree $1. ; git worktree add ../"$1" ;}'
+# alias list-spawns='git worktree list'
+# alias despawn='(){ echo Removing worktree at $1. ; git worktree remove -f "$1" ;}'
 # git end
 
 # dynamoDB
