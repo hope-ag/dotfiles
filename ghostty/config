@@ -4,9 +4,8 @@ quit-after-last-window-closed=true
 macos-titlebar-style="transparent"
 
 theme = Catppuccin Macchiato
-#uncomment the following lines to enable transparent+blurred background
-#background-opacity=0.9
-#background-blur=30
+background-opacity=0.96
+background-blur=30
 unfocused-split-opacity=0.6
 scrollback-limit=6000
 
@@ -20,7 +19,8 @@ window-inherit-working-directory=true
 window-decoration=client
 focus-follows-mouse=true
 
-window-padding-x = 4
+window-padding-x = 8
+window-padding-y = 2
 
 
 font-family = "Menlo Regular"
@@ -35,15 +35,3 @@ cursor-style="bar"
 cursor-style-blink=true
 #alt+click to place cursor
 cursor-click-to-move=true
-
-
-# Keybindings
-keybind = super+arrow_right=new_split:right
-keybind = super+arrow_left=new_split:left
-keybind = super+arrow_up=new_split:up
-keybind = super+arrow_down=new_split:down
-
-
-
-
-
