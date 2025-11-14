@@ -1,7 +1,7 @@
 # Dotfiles
 
 
-A minimal, modern terminal setup with Catppuccin theming for zsh, tmux, and ghostty. Optimized for macOS but adaptable to any system with zsh.
+Personal collection of cli customizations and utilities from over 4 years, paired with modern tools. A minimal, modern terminal setup with Catppuccin theming for zsh, tmux, and ghostty. Optimized for macOS but adaptable to any system with zsh.
 
 **Demo**
 
@@ -9,6 +9,17 @@ A minimal, modern terminal setup with Catppuccin theming for zsh, tmux, and ghos
 
 **Screenshot**
 ![Screenshot](assets/screenshot.png)
+
+
+## TLDR
+<!-- jump to installation -->
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Features](#features)
+- [Customization](#customization)
+- [Useful Commands](#useful-commands)
+
 
 ## Prerequisites
 
