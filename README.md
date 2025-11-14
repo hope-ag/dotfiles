@@ -1,7 +1,14 @@
 # Dotfiles
 
-(Images and Gifs coming soon)
+
 A minimal, modern terminal setup with Catppuccin theming for zsh, tmux, and ghostty. Optimized for macOS but adaptable to any system with zsh.
+
+**Demo**
+
+![Demo](assets/demo.gif)
+
+**Screenshot**
+![Screenshot](assets/screenshot.png)
 
 ## Prerequisites
 
@@ -23,7 +30,6 @@ brew install fzf zoxide starship carapace-sh/tap/carapace
 
 ### Optional
 - **tmux** - Terminal multiplexer (for managing multiple terminal sessions)
-- **[tpm](https://github.com/tmux-plugins/tpm)** - Tmux Plugin Manager (recommended for tmux users)
 - **[ghostty](https://github.com/ghostty-org/ghostty)** - GPU-accelerated terminal emulator
 
 ## Installation
@@ -147,7 +153,7 @@ npm run <Tab>       # Shows package.json scripts
 ```
 
 ### 🖥️ tmux Configuration (Optional)
-*[GIF placeholder: tmux with multiple panes and windows, showing Catppuccin theme]*
+The main demo uses tmux heavily.
 
 **Features**
 - Catppuccin theme integration
@@ -158,21 +164,15 @@ npm run <Tab>       # Shows package.json scripts
 - Plugin management via [tpm](https://github.com/tmux-plugins/tpm)
 
 ### 👻 Ghostty Terminal (Optional)
-*[GIF placeholder: Ghostty terminal with GPU acceleration and smooth scrolling]*
-
 Modern GPU-accelerated terminal with advanced features.
 
 **Features**
-- Split panes with `Cmd+Arrow` keys
 - Transparent background with blur (optional)
 - Focus follows mouse
-- Click to position cursor with `Alt+Click`
-- Automatic working directory inheritance
 - Catppuccin color scheme
-- Native performance on macOS
+- Maximized window by default
 
 ### 🔧 Zsh Enhancements
-
 Powerful shell enhancements for productivity.
 
 **Plugins:**
