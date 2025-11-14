@@ -10,6 +10,9 @@ Personal collection of cli customizations and utilities from over 4 years, paire
 **Screenshot**
 ![Screenshot](assets/screenshot.png)
 
+**Wallpaper**
+![Wallpaper](assets/wallpaper.png)
+
 
 ## TLDR
 - [Prerequisites](#prerequisites)
