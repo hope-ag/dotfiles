@@ -12,8 +12,6 @@ Personal collection of cli customizations and utilities from over 4 years, paire
 
 
 ## TLDR
-<!-- jump to installation -->
-
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Features](#features)
@@ -40,7 +38,7 @@ brew install fzf zoxide starship carapace-sh/tap/carapace
 - **[carapace](https://carapace-sh.github.io/carapace-bin/carapace-bin.html)** - Multi-shell argument completions
 
 ### Optional
-- **tmux** - Terminal multiplexer (for managing multiple terminal sessions)
+- **[tmux](https://github.com/tmux/tmux)** - Terminal multiplexer (for managing multiple terminal sessions)
 - **[ghostty](https://github.com/ghostty-org/ghostty)** - GPU-accelerated terminal emulator
 
 ## Installation
