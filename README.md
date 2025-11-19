@@ -44,6 +44,7 @@ brew install fzf zoxide starship carapace-sh/tap/carapace
 ### Optional
 - **[tmux](https://github.com/tmux/tmux)** - Terminal multiplexer (for managing multiple terminal sessions)
 - **[ghostty](https://github.com/ghostty-org/ghostty)** - GPU-accelerated terminal emulator
+- **[eza](https://github.com/eza-community/eza)** - Modern replacement for `ls`
 
 ## Installation
 

@@ -26,7 +26,7 @@ zinit snippet OMZP::git
 zinit snippet OMZP::npm
 zinit snippet OMZP::nvm
 zinit snippet OMZP::docker
-zinit snippet OMZP::eza
+# zinit snippet OMZP::eza
 zinit snippet OMZP::aws
 
 
