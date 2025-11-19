@@ -27,7 +27,7 @@ Personal collection of cli customizations and utilities from over 4 years, paire
 ### Required
 - **zsh** - Modern shell (usually pre-installed on macOS)
 - **git** - Version control system
-- **Font with ligatures** - Recommended for displaying special characters. Recommended font: [JetBrains Mono](https://www.jetbrains.com/lp/mono)
+- **Font with ligatures** - Recommended for displaying special characters. Recommended font: [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)
 - **[Homebrew](https://brew.sh)** (macOS) or equivalent package manager
 
 ### CLI Tools to Install
