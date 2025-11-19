@@ -91,6 +91,7 @@ eval "$(zoxide init --cmd cd zsh)"
 
 
 # fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # for manual installs
 # CTRL + R for reverse search and CTRL + T for fuzzy search
 # catppuccin theme in fzf
 export FZF_DEFAULT_OPTS=" \
