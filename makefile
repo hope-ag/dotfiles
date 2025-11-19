@@ -19,7 +19,14 @@ linkghostty:
 	fi
 	ln -sf ~/.dotfiles/ghostty ~/.config/ghostty
 
-linkall:
-	make linkghostty linktmux linkzshrc
+linkstarship:
+	@if [ -e ~/.config/starship ] && [ ! -L ~/.config/starship ]; then \
+		mv ~/.config/starship ~/.config/starship_backup; \
+		echo "Backed up existing ~/.config/starship to ~/.config/starship_backup"; \
+	fi
+	ln -sf ~/.dotfiles/starship ~/.config/starship
 
-.PHONY: linktmux linkzshrc linkghostty
+linkall:
+	make linkghostty linktmux linkzshrc linkstarship
+
+.PHONY: linktmux linkzshrc linkghostty linkstarship linkall
