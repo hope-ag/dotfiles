@@ -75,7 +75,6 @@ brew install fzf zoxide starship carapace-sh/tap/carapace
 ## Features
 
 ### 🎨 Catppuccin Theme
-*[GIF placeholder: Terminal showcasing Catppuccin color scheme]*
 
 Beautiful, soothing pastel theme applied consistently across:
 - Terminal prompt (via Starship)
@@ -85,7 +84,6 @@ Beautiful, soothing pastel theme applied consistently across:
 - Ghostty terminal colors
 
 ### 🌿 Git Workflow Enhancements
-*[GIF placeholder: Demo of git worktree commands and aliases]*
 
 **Branch Management with Worktrees**
 - `spawn <branch>` - Create a new worktree for a branch
@@ -115,7 +113,6 @@ despawn ../feature-branch
 - `apply-latest` - Apply most recent stash
 
 ### 🔍 fzf Integration
-*[GIF placeholder: fzf in action - file search, history search, directory navigation]*
 
 **Key Bindings**
 - `Ctrl+R` - Fuzzy search command history
@@ -129,7 +126,6 @@ despawn ../feature-branch
 - Integration with git, docker, and more
 
 ### ⚡ zoxide - Smarter Navigation
-*[GIF placeholder: zoxide jumping between directories]*
 
 **Usage**
 ```bash
@@ -144,7 +140,6 @@ cdi proj  # Shows interactive menu of directories matching "proj"
 ```
 
 ### ✨ Starship Prompt
-*[GIF placeholder: Starship prompt showing git info, directory, and various integrations]*
 
 **Features**
 - Git branch and status indicators
@@ -155,7 +150,6 @@ cdi proj  # Shows interactive menu of directories matching "proj"
 - Fully customizable via `~/.config/starship/starship.toml`
 
 ### 🎯 Carapace Completions
-*[GIF placeholder: Carapace providing intelligent completions for various CLI tools]*
 
 Advanced command-line completions for 500+ CLI tools.
 
