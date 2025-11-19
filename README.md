@@ -27,6 +27,7 @@ Personal collection of cli customizations and utilities from over 4 years, paire
 ### Required
 - **zsh** - Modern shell (usually pre-installed on macOS)
 - **git** - Version control system
+- **Font with ligatures** - Recommended for displaying special characters. Recommended font: [JetBrains Mono](https://www.jetbrains.com/lp/mono)
 - **[Homebrew](https://brew.sh)** (macOS) or equivalent package manager
 
 ### CLI Tools to Install
@@ -61,6 +62,7 @@ brew install fzf zoxide starship carapace-sh/tap/carapace
    make linkzshrc    # Link zsh configuration
    make linktmux     # Link tmux configuration
    make linkghostty  # Link ghostty configuration
+   make linkstarship # Link starship configuration
    ```
 
    Note: The Makefile will automatically backup any existing configurations before linking.
